@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "03/eqJ098h2UqgjzXBEYDXG9qo6M6Bxkqx+X1x4aMVcYU5aN5WFvOFqZqSU8KivjoGbkbcyq1Ep6GGhzEwiXeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NUC\\Desktop\\FilterWheelMover\\FilterWheelMover\\FilterWheelMover.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NUC\\.nuget\\packages\\ascom.com.components\\1.0.52\\ascom.com.components.1.0.52.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\ascom.common.components\\1.0.52\\ascom.common.components.1.0.52.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\ascom.exception.library\\6.6.1\\ascom.exception.library.6.6.1.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\NUC\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.28\\microsoft.windows.sdk.net.ref.10.0.22621.28.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\netcoreapp3.1\FilterWheelMover.csproj.AssemblyReference.cache
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\netcoreapp3.1\FilterWheelMover.csproj.ResolveComReference.cache
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\netcoreapp3.1\FilterWheelMover.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\netcoreapp3.1\FilterWheelMover.AssemblyInfoInputs.cache
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\netcoreapp3.1\FilterWheelMover.AssemblyInfo.cs
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\netcoreapp3.1\FilterWheelMover.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\FilterWheelMover.csproj.AssemblyReference.cache
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.DriverHelper2.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.FocusSim.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.ASCOM.Helper.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.ASCOM.Helper2.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.ScopeSim.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.SwitchSim.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.ASCOM.Interface.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.DriverHelper.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.CCDSimulator.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\Interop.DomeSim.dll
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\FilterWheelMover.csproj.ResolveComReference.cache
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\FilterWheelMover.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\FilterWheelMover.AssemblyInfoInputs.cache
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\FilterWheelMover.AssemblyInfo.cs
+C:\Users\NUC\Desktop\FilterWheelMover\FilterWheelMover\obj\Debug\net7.0-windows10.0.22621.0\FilterWheelMover.csproj.CoreCompileInputs.cache
