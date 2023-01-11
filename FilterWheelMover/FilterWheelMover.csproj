@@ -109,11 +109,11 @@
       <Isolated>false</Isolated>
       <EmbedInteropTypes>true</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="{5849af17-3590-42ff-900e-7544d45c9825}">
+    <COMReference Include="{ec785106-0f00-4e7f-90ba-7ccc9e9740e1}">
       <WrapperTool>tlbimp</WrapperTool>
       <VersionMinor>0</VersionMinor>
       <VersionMajor>6</VersionMajor>
-      <Guid>5849af17-3590-42ff-900e-7544d45c9825</Guid>
+      <Guid>ec785106-0f00-4e7f-90ba-7ccc9e9740e1</Guid>
     </COMReference>
   </ItemGroup>
 

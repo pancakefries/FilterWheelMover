@@ -1,9 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
-using System;
-using System.Security.Cryptography;
-//using ASCOM.Common.DeviceInterface;
 using ASCOM.Common.DeviceInterfaces;
 
 namespace FilterWheelMover
@@ -15,13 +12,19 @@ namespace FilterWheelMover
             short pos;
             string pos_str;
             const int FILTER_WHEEL_TIME_OUT = 3;
-            System.DateTime StartTime;
-            ASCOM.Common.DeviceInterfaces.IFilterWheelV2 m_FilterWheel = new ASCOM.Com.DriverAccess.FilterWheel();
-            ASCOM.Com.Chooser;
+            DateTime StartTime;
+            
+            var chooser = new ASCOM.Com.Chooser();
+            chooser.DeviceType = ASCOM.Common.DeviceTypes.FilterWheel;
+            var prog_id = chooser.Choose("ASCOM.SBIG.USB_FW.FilterWheel");
+            Console.WriteLine(prog_id);
+            //IFilterWheelV2 m_FilterWheel = new ASCOM.Com.DriverAccess.FilterWheel(prog_id);
+            var m_FilterWheel = new ASCOM.Com.DriverAccess.FilterWheel(prog_id);
+            m_FilterWheel.Connected = true;
 
 
             // Sleep for 3 seconds to allow for filter wheel startup movement
-            System.Threading.Thread.Sleep(3000);
+            Thread.Sleep(3000);
 
             Console.WriteLine("Enter q to quit");
             while (true)
@@ -43,7 +46,7 @@ namespace FilterWheelMover
 
                     do
                     {
-                        System.Threading.Thread.Sleep(100);
+                        Thread.Sleep(100);
                         Console.WriteLine("Waiting...");
                     } while (!(
                         (m_FilterWheel.Position == pos) |

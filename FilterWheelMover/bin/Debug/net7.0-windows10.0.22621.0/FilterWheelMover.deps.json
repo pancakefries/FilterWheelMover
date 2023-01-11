@@ -1,0 +1,149 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FilterWheelMover/1.0.0": {
+        "dependencies": {
+          "ASCOM.Com.Components": "1.0.52",
+          "ASCOM.Common.Components": "1.0.52",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.22621.28"
+        },
+        "runtime": {
+          "FilterWheelMover.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.28": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.22621.24",
+            "fileVersion": "10.0.22621.28"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.1.40881"
+          }
+        }
+      },
+      "ASCOM.Com.Components/1.0.52": {
+        "dependencies": {
+          "ASCOM.Common.Components": "1.0.52",
+          "ASCOM.Exception.Library": "6.6.1",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.Win32.Registry": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ASCOM.Com.dll": {
+            "assemblyVersion": "1.0.52.0",
+            "fileVersion": "1.0.52.0"
+          }
+        }
+      },
+      "ASCOM.Common.Components/1.0.52": {
+        "dependencies": {
+          "ASCOM.Exception.Library": "6.6.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ASCOM.Common.dll": {
+            "assemblyVersion": "1.0.52.0",
+            "fileVersion": "1.0.52.0"
+          }
+        }
+      },
+      "ASCOM.Exception.Library/6.6.1": {
+        "runtime": {
+          "lib/netstandard2.0/ASCOM.Exceptions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.6.1.3587"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {}
+    }
+  },
+  "libraries": {
+    "FilterWheelMover/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.28": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASCOM.Com.Components/1.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AYOlN5Jhji1OPOtATbhNiDsVBty9YT/EjCsGBGdnGC+724dok+IAwPQruftK5TcbNdTQUHgz/57V6ChIaUeCpg==",
+      "path": "ascom.com.components/1.0.52",
+      "hashPath": "ascom.com.components.1.0.52.nupkg.sha512"
+    },
+    "ASCOM.Common.Components/1.0.52": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/FT6WUFCK6E7PR/CdXDAEOCZ4GgDYfSV++jTKOrhUGkMtOy0jyCPfy/4w1hQUxCxaT/+XKxJvmEXbdaCbQZiQ==",
+      "path": "ascom.common.components/1.0.52",
+      "hashPath": "ascom.common.components.1.0.52.nupkg.sha512"
+    },
+    "ASCOM.Exception.Library/6.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+sWlako9ZCQbY7saQN2arlcPekx7JaO6qUAh+DGmCNCVg/IoStjF19NG9JcDOD4q8PbmqkKbHr4XEA4LJHsxag==",
+      "path": "ascom.exception.library/6.6.1",
+      "hashPath": "ascom.exception.library.6.6.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    }
+  }
+}
