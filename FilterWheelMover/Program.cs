@@ -11,20 +11,27 @@ namespace FilterWheelMover
         {
             short pos;
             string pos_str;
-            const int FILTER_WHEEL_TIME_OUT = 3;
+            const int FILTER_WHEEL_TIME_OUT = 10;
             DateTime StartTime;
+            var prog_id = "ASCOM.SBIG.USB_FW.FilterWheel";
             
-            var chooser = new ASCOM.Com.Chooser();
-            chooser.DeviceType = ASCOM.Common.DeviceTypes.FilterWheel;
-            var prog_id = chooser.Choose("ASCOM.SBIG.USB_FW.FilterWheel");
-            Console.WriteLine(prog_id);
+            try
+            {
+                var chooser = new ASCOM.Com.Chooser();
+                chooser.DeviceType = ASCOM.Common.DeviceTypes.FilterWheel;
+                prog_id = chooser.Choose("ASCOM.SBIG.USB_FW.FilterWheel");
+            } catch(InvalidOperationException e)
+            {
+                Console.WriteLine("Accessing remotely, defaulting to SBIG.USB_FW");
+            }
+            
             //IFilterWheelV2 m_FilterWheel = new ASCOM.Com.DriverAccess.FilterWheel(prog_id);
             var m_FilterWheel = new ASCOM.Com.DriverAccess.FilterWheel(prog_id);
             m_FilterWheel.Connected = true;
 
 
-            // Sleep for 3 seconds to allow for filter wheel startup movement
-            Thread.Sleep(3000);
+            // Sleep for 5 seconds to allow for filter wheel startup movement
+            Thread.Sleep(5000);
 
             Console.WriteLine("Enter q to quit");
             while (true)
